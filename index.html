@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- CSS only bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--link dos icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--link do css puro-->
+    <link rel="stylesheet" href="style.css/style.css">
+    <title>Home House</title>
+</head>
+<body>
+    <!--menu de navegação-->
+    <head>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid">
+                <i id="logo" class="bi bi-house-door">House</i>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="link_menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="lin" class="nav-link text-light" href="#">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Imóveis</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contatos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>  
+    </head>
+    <main>
+        <!--carrossel-->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-carrossel" src="img/carrossel-01.jpg" class="d-block w-100" alt="Casa">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-carrossel"  src="img/carrossel-02.jpg" class="d-block w-100" alt="Casa">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-carrossel"  src="img/carrossel-03.jpg" class="d-block w-100" alt="Casa">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <!--Cards-->
+        <div id="cards" class="container">
+            <div class="card" style="width: 18rem;">
+                <i id="cubo" class="bi bi-box"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Projetos Completos</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+                <a  id="botao" href="#" class="btn btn-primary">Saiba mais...</a>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <i id="lamp" class="bi bi-lightbulb"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Você participa também</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+                <a  id="botao" href="#" class="btn btn-primary">Saiba mais...</a>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <i id="raio" class="bi bi-lightning-charge"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Adiantamento de entregas</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+                </div>
+                <a  id="botao" href="#" class="btn btn-primary">Saiba mais...</a>
+              </div>
+        </div>
+        <!--titulo-->
+        <h1>Projetos em Destaque</h1>
+        <!--projetos em grid-->
+        <div id="projetos-grid" class="container">
+           <div id="projeto">
+               <div class="texto">
+                <h4>Nome</h4>
+               <p class="sm-projeto">Saiba mais...</p>
+               </div>
+               <img src="img/decoraçao-01.jpg" class="img-fluid" alt="...">
+           </div>
+
+           <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-02.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-03.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-04.jpg" class="img-fluid" alt="..."> 
+        </div>
+
+        <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-05.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-06.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-07.jpg" class="img-fluid" alt="...">
+        </div>
+
+        <div id="projeto">
+            <div class="texto">
+             <h4>Nome</h4>
+            <p class="sm-projeto">Saiba mais...</p>
+            </div>
+            <img src="img/decoraçao-08.jpg" class="img-fluid" alt="...">
+        </div>
+        </div>
+        <!--titulo-->
+        <h1>Detalhes Importantes</h1>
+        <!--detalhes da empresa-->
+
+        <div id="sobre-empresa" class="container">
+
+            <div class="img-sobre">
+                <img class="img-sobre-img" src="img/escritorio.jpg" alt="">
+            </div>
+
+        <div id="sobre" class="row">
+
+          <div class="bloco-12 col-12">
+            <h2 class="titulo-info">Conheça sobre nossa empresa</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque perspiciatis voluptatibus accusamus. Cum rerum minima placeat recusandae commodi, aut explicabo, ipsam, vel esse ad accusamus impedit dolores eos assumenda a?
+            </p>
+          </div>
+
+            <div class="bloco-3 col-4">
+              <p class="numero">33</p>
+              <p class="info">Anos na costrução civil</p>
+            </div>
+
+            <div class="bloco-3 col-4">
+              <p class="numero">3579</p>
+              <p class="info">Projetos executados</p>
+            </div>
+
+            <div class="bloco-3 col-4">
+              <p class="numero">2739</p>
+              <p class="info">Clientes</p>
+            </div>
+
+             <button id="btn-sobre" >Saiba mais...</button>
+
+        </div>
+    </main>
+    <footer>
+      <!--head do footer-->
+      <div class="footer container">
+        <div class="div-titulo">
+          <h2>House</h2>
+        </div>
+        <div class="div-icons">
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-twitter"></i>
+        </div>
+      </div>
+      <!--blocos a, b, c-->
+      <div class="conteudo-footer container">
+        <div class="bloco-a">
+          <h2 class="titulo-bloc h3">Fique por dentro das novidades</h2>
+          <p class="p-footer">Inscreva-se para saber em primeira mão</p>
+          <input id="input-text" type="text" name="" id="" placeholder="Digite seu email">
+          <button class="bt-inscre">inscreva-se</button>
+        </div>
+
+        <span class="span-bloc"></span>
+
+        <div class="bloco-b">
+          <h2 class="titulo-bloc h3">Formas de contato</h2>
+          <p class="p-footer">(13) 9999-9999</p>
+          <p class="p-footer">house@gmail.com</p>
+        </div>
+
+        <span class="span-bloc"></span>
+        <span class="span-bloc-1"></span>
+
+        <div class="bloco-c">
+          <h2 class="titulo-bloc h3">Você pode estar buscando por:</h2>
+          <p class="p-footer-50">Projetos</p>
+          <p class="p-footer-50">Contratar</p>
+          <p class="p-footer-50">Imóveis</p>
+          <p class="p-footer-50">Trabalhe conosco</p>
+          <p class="p-footer-50">Vendas</p>
+          <p class="p-footer-50">Contato</p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
